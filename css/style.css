@@ -834,6 +834,7 @@ ul {
   .banner-section .banner-inner .banner-dec-area h2 {
     font-size: 35px;
     line-height: 50px;
+    margin-bottom: 35px;
   }
   .about-section .about-inner .about-wrap .about-dec {
     padding-left: 30px;
@@ -856,6 +857,8 @@ ul {
   }
   .our-services .service-body .service-contact-btn {
     margin-top: 25px;
+    z-index: 9;
+    position: relative;
   }
   .our-partner {
     margin-bottom: 80px;
@@ -872,5 +875,24 @@ ul {
   }
   .our-partner .our-partner-body .Partners-logo {
     width: 90%;
+  }
+  .bg-top::before {
+    content: "";
+    left: 15px;
+  }
+  .bg-top::after {
+    content: "";
+    clip-path: polygon(100% 0, 100% 80%, 0 99%, 0 0);
+  }
+  .our-services {
+    padding: 50px 0px;
+  }
+  .our-services .service-body {
+    margin-top: 30px;
+  }
+  .our-services .service-body .slider::after {
+    content: "";
+    right: 0px;
+    bottom: -40px;
   }
 }
