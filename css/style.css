@@ -262,6 +262,9 @@ ul {
 .header-main .header-inner .brand-logo {
   width: 240px;
 }
+.header-main .header-inner .brand-logo img {
+  width: 100%;
+}
 .header-main .header-inner .header-menu ul li {
   padding: 0px 20px;
 }
