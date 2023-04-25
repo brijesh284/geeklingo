@@ -601,6 +601,7 @@ ul {
 .contact-section .contact-form .form-list textarea::placeholder,
 .contact-section .contact-form .form-list input::placeholder {
   font-size: 12px;
+  color: rgba(169, 169, 170, 0.6);
 }
 .contact-section .contact-form button {
   color: #fff;
